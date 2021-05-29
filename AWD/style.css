@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #bdbdbd;
+  width: 100%;
+  height: 100vh;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+body header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid #e8491d;
+}
+
+body header .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+body header .container #logo {
+  font-family: "Pattaya";
+  float: left;
+}
+
+body header .container #logo h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+body header .container #logo h1 .heighlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+body header .container nav {
+  float: right;
+  margin-top: 10px;
+}
+
+body header .container nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+body header .container nav ul li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+body header .container nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+body header .container nav ul li a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+body header .container nav ul li .current {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+body #showcase {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(./image/nightmare-1699071_1280.jpg);
+  background-repeat: no-repeat;
+}
+
+body #showcase h1 {
+  font-family: monospace;
+  padding-top: 4.5rem;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+body #showcase p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+}
+
+body #newsletter {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 100px;
+  padding: 2rem;
+}
+
+body #newsletter .container h1 {
+  float: left;
+}
+
+body #newsletter .container form {
+  float: right;
+}
+
+body #newsletter .container form input[type="email"] {
+  padding: 4px;
+  height: 35px;
+  width: 300px;
+  outline-style: none;
+}
+
+body #newsletter .container form .button-1 {
+  height: 35px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+body #boxes {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 1.4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #boxes .box {
+  float: left;
+  width: 30%;
+  padding: 1px;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+body #boxes .box img {
+  width: 100px;
+}
+
+body #main {
+  width: 100%;
+}
+
+body #main #main-col {
+  float: left;
+  width: 65%;
+}
+
+body #main #main-col .page-title,
+body #main #main-col .paragraph {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+body #main #main-col .dark {
+  padding: 1.3rem;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 81px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body #main #main-col #Services li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #a19f9f;
+  margin-bottom: 5px;
+  background: #d1d1da;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+body #main #sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+body #main #sidebar .dark {
+  padding: 1rem;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body #main #sidebar form input[type="text"],
+body #main #sidebar form [type="email"],
+body #main #sidebar form [type="message"] {
+  padding: 4px;
+  height: 35px;
+  width: 300px;
+  outline-style: none;
+  width: 90%;
+}
+
+body #main #sidebar form .button-1 {
+  height: 35px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+body footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  float: left;
+  background: #e8491d;
+  width: 100%;
+}
+
+body footer .icon a svg {
+  color: white;
+  margin-top: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer p {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #bdbdbd;
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  body header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #e8491d;
+  }
+  body header .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  body header .container #logo {
+    font-family: "Pattaya";
+    float: left;
+  }
+  body header .container #logo h1 {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  body header .container #logo h1 .heighlight {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  body header .container nav {
+    float: right;
+    margin-top: 10px;
+  }
+  body header .container nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  body header .container nav ul li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  body header .container nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  body header .container nav ul li a:hover {
+    color: #cccccc;
+    font-weight: bold;
+  }
+  body header .container nav ul li .current {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  body #showcase {
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+    background-image: url(./image/nightmare-1699071_1280.jpg);
+  }
+  body #showcase h1 {
+    font-family: monospace;
+    padding-top: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  body #showcase p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  body #newsletter {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 100px;
+    padding: 2rem;
+  }
+  body #newsletter .container h1 {
+    float: none;
+    text-align: center;
+  }
+  body #newsletter .container form {
+    float: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body #newsletter .container form input[type="email"] {
+    padding: 4px;
+    height: 35px;
+    width: 320px;
+    outline-style: none;
+  }
+  body #newsletter .container form .button-1 {
+    width: 320px;
+    height: 35px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    margin-top: 0.3rem;
+  }
+  body #boxes {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 1.4rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #boxes .box {
+    float: none;
+    width: 96%;
+    padding: 1px;
+    text-align: center;
+    margin-left: 0.6rem;
+  }
+  body #boxes .box img {
+    width: 100px;
+  }
+  body #main {
+    width: 100%;
+  }
+  body #main #main-col {
+    float: left;
+    width: 65%;
+  }
+  body #main #main-col .page-title,
+  body #main #main-col .paragraph {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  body #main #main-col .dark {
+    padding: 1.3rem;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 81px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  body #main #main-col #Services li {
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #a19f9f;
+    margin-bottom: 5px;
+    background: #d1d1da;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  body #main #sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  body #main #sidebar .dark {
+    padding: 1rem;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  body #main #sidebar form input[type="text"],
+  body #main #sidebar form [type="email"],
+  body #main #sidebar form [type="message"] {
+    padding: 4px;
+    height: 35px;
+    width: 300px;
+    outline-style: none;
+    width: 90%;
+  }
+  body #main #sidebar form .button-1 {
+    height: 35px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+  }
+  body footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    float: left;
+    background: #e8491d;
+    width: 100%;
+  }
+  body footer .icon a svg {
+    color: white;
+    margin-top: 2rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body footer p {
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
