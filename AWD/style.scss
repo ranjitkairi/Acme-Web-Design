@@ -245,7 +245,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #bdbdbd;
     width: 100%;
-    height: 100vh;
+    height: auto;
     font-size: 15px;
     line-height: 1.5;
     margin: 0;
@@ -264,7 +264,8 @@ body {
 
         #logo {
           font-family: "Pattaya";
-          float: left;
+          float: none;
+          text-align: center;
 
           h1 {
             margin-bottom: 20px;
@@ -279,6 +280,7 @@ body {
 
         nav {
           float: right;
+          text-align: center;
           margin-top: 10px;
 
           ul {
@@ -286,7 +288,7 @@ body {
             padding: 0;
 
             li {
-              float: left;
+              float: none;
               display: inline;
               padding: 0 20px 0 20px;
               a {
@@ -341,9 +343,11 @@ body {
         h1 {
           float: none;
           text-align: center;
+          width: 100%;
         }
         form {
           float: none;
+          width: 96%;
           align-items: center;
           text-align: center;
 
@@ -387,43 +391,42 @@ body {
     // about
 
     #main {
-      width: 100%;
+      // float: none;
+      // width: 100%;
+      // text-align: center;
       #main-col {
-        float: left;
-        width: 65%;
+        float: none;
+        width: 100%;
+        text-align: center;
 
         .page-title,
         .paragraph {
-          margin-left: 20px;
-          margin-top: 20px;
+          margin-right: 20px;
         }
         .dark {
           padding: 1.3rem;
           background: #35424a;
           color: #ffffff;
-          margin-top: 20px;
-          margin-bottom: 81px;
-          margin-left: 20px;
-          margin-right: 20px;
         }
+
         // Services
 
         #Services {
           li {
             list-style: none;
-            padding: 20px;
             border: 1px solid #a19f9f;
             margin-bottom: 5px;
+            text-align: center;
+            margin-right: 20px;
             background: #d1d1da;
-            margin-left: 20px;
-            margin-bottom: 20px;
           }
         }
       }
 
       #sidebar {
-        float: right;
-        width: 30%;
+        float: none;
+        width: 100%;
+        text-align: center;
         margin-top: 10px;
         margin-right: 20px;
 
@@ -431,9 +434,12 @@ body {
           padding: 1rem;
           background: #35424a;
           color: #ffffff;
-          margin-top: 10px;
-          margin-bottom: 10px;
+          margin-bottom: 6rem;
+          height: 50vh;
+          width: 92%;
+          margin-left: 14px;
         }
+
         form {
           input[type="text"],
           [type="email"],
@@ -448,8 +454,6 @@ body {
             height: 35px;
             background: #e8491d;
             border: 0;
-            padding-left: 20px;
-            padding-right: 20px;
             color: #ffffff;
           }
         }
@@ -457,9 +461,11 @@ body {
     }
 
     footer {
+      height: 15vh;
+      justify-content: center;
       align-items: center;
       text-align: center;
-      float: left;
+      float: none;
       background: #e8491d;
       width: 100%;
 
